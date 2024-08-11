@@ -1,0 +1,240 @@
+body {
+    font-family: 'Arial';
+    
+}
+
+h1 {
+    color: #198754;
+    margin-top: 3vw;
+}
+h2 {
+    color: #198754;
+    margin-top: 1vw;
+}
+.jumbotron {
+    margin-bottom:0;
+}
+
+.messageHautDePage {
+    color: white;
+    text-align: center;
+    background-color: purple;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    font-weight: bold;
+}
+
+#logoMenu {
+    width: 50px;
+}
+
+.divDebut {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+.mt10perso {
+    margin-top: 1vw;
+}
+
+.mt20perso {
+    margin-top: 3vw;
+}
+
+.mb20perso {
+    margin-bottom: -2vw;
+}
+
+.mb30perso {
+    margin-bottom: 3vw;
+}
+
+.mb40perso {
+    margin-bottom: 4vw;
+}
+
+.mt30perso {
+    margin-top: 5vw!important;
+}
+
+.lien {
+    color: white;
+    text-decoration: none;
+}
+
+.lien:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.lien2 a {
+    color: black;
+    text-decoration: none;
+}
+
+.lien2 a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.lienMonCompte {
+    color: black;
+    text-decoration: none;
+}
+
+.lienMonCompte:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+#homePage {
+    text-align: center;
+}
+
+#carousel {
+    width: 50vw; 
+    margin: 0px auto; 
+    margin-top: 2vw;
+}
+
+.ligneHabitat {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    margin-top: 2vw;
+    padding: 1vw;
+    border-radius: 4px;
+}
+
+.ligneHabitat img {
+    max-width: 300px;
+    margin-right: 40px;
+    margin-left: 30px; /* Add space to the left of the image */
+}
+
+.contenuHabitatsHomePage {
+    flex: 1;
+    text-align: right; /* Align text to the right */
+    padding-right: 60px; /* Add space to the right of the text */
+}
+
+.pHomePage {
+    margin: 0;
+    margin-top: 5px;
+}
+
+.pHomePageElement1 {
+    font-weight: bold;
+}
+
+#footerBas {
+    background-color: #0a4e2e; 
+    margin-top: 2vw;
+}
+
+#footerDiv {
+    margin-right: 5vw;
+}
+
+.imgAnimal {
+    width: 23vw;
+    margin: 1vw;
+}
+
+.margin2 {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+#footerGlobal {
+    background-color: #198754;
+    margin-top: 5vw;
+}
+
+#footerGlobal a {
+    text-decoration: none;
+}
+
+.table-striped a {
+    color: black;
+    text-decoration: none;
+}
+
+.table-striped a:hover {
+    text-decoration: underline;
+}
+
+#menuAdmin {
+    font-size: 18px;
+}
+
+.avisAValider {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#divParentAvis {
+    width: 50vw;
+}
+
+.table {
+    text-align: center!important;
+    vertical-align: middle;
+}
+
+.table img {
+    width: 8vw;
+}
+
+.imageHabitatDetail {
+    width: 23vw;
+    margin-right: 1vw;
+}
+
+.boldSpan {
+    font-weight: bold;
+}
+#divHabitatDetail {
+    margin-top: 2vw;
+    text-align: center;
+}
+#divHabitatDetail img {
+    margin: 1vw;
+}
+
+#detailAnimal {
+    text-align: center;
+}
+
+#filtres {
+    display: flex;
+    align-items: center;
+}
+
+#filtres input {
+    border: solid 1px rgb(206,212,218);
+    border-radius: 3px;
+    padding: .375rem .75rem;
+}
+
+.ligneHabitat {
+    width: 80%;
+    margin: 0 auto 1rem auto; /* Center the frames and add some bottom margin */
+    border: 1px solid #cccccc; /* Optional: Add a border for better visibility */
+    padding: 1rem; /* Optional: Add some padding inside the frames */
+    border-radius: 5px; /* Optional: Add rounded corners */
+}
+/* Increase font size for elements inside the frames */
+.ligneHabitat p {
+    font-size: 1.2rem; /* Adjust the font size as needed */
+}
+
+.ligneHabitat .pHomePageElement1 {
+    font-size: 1.4rem; /* Adjust the font size for bold elements */
+}
+.custom-nav-link {
+    color: #198754 !important; /* Change la couleur de la police */
+}

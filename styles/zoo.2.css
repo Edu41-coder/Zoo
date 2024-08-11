@@ -1,0 +1,230 @@
+body {
+    font-family: 'Arial';
+}
+
+h1 {
+    color: #198754;
+    margin-top: 3vw;
+}
+h2 {
+    color: #198754;
+    margin-top: 1vw;
+}
+.jumbotron {
+    margin-bottom:0;
+}
+
+.messageHautDePage {
+    color: white;
+    text-align: center;
+    background-color: purple;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    font-weight: bold;
+}
+
+#logoMenu {
+    width: 50px;
+}
+
+.divDebut {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+.mt10perso {
+    margin-top: 1vw;
+}
+
+.mt20perso {
+    margin-top: 3vw;
+}
+
+.mb20perso {
+    margin-bottom: -2vw;
+}
+
+.mb30perso {
+    margin-bottom: 3vw;
+}
+
+.mb40perso {
+    margin-bottom: 4vw;
+}
+
+.mt30perso {
+    margin-top: 5vw!important;
+}
+
+.lien {
+    color: white;
+    text-decoration: none;
+}
+
+.lien:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.lien2 a {
+    color: black;
+    text-decoration: none;
+}
+
+.lien2 a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.lienMonCompte {
+    color: black;
+    text-decoration: none;
+}
+
+.lienMonCompte:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+#homePage {
+    text-align: center;
+}
+
+#carousel {
+    width: 50vw; 
+    margin: 0px auto; 
+    margin-top: 2vw;
+}
+
+.ligneHabitat {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.ligneHabitat img {
+    height: 100px;
+    margin-right: 1vw;
+}
+
+.ligneHabitat div {
+    text-align: right;
+}
+
+.pHomePage {
+    margin: 0;
+    margin-top: 5px;
+}
+
+.habitatG, .habitatD {
+    display: flex;
+    align-items: flex-start;
+    width: 30vw;
+    margin-right: 2vw;
+    margin-left: 2vw;
+    justify-content: space-between;
+    border: 1px solid black;
+    margin-top: 2vw;
+    padding: 1vw;
+    border-radius: 4px;
+}
+
+.pHomePageElement1 {
+    font-weight: bold;
+}
+
+.contenuHabitatsHomePage {
+    text-align: left;
+}
+
+#footerBas {
+    background-color: #0a4e2e; 
+    margin-top: 2vw;
+}
+
+#footerDiv {
+    margin-right: 5vw;
+}
+
+.imgAnimal {
+    width: 23vw;
+    margin: 1vw;
+}
+
+.margin2 {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+#footerGlobal {
+    background-color: #198754;
+    margin-top: 5vw;
+}
+
+#footerGlobal a {
+    text-decoration: none;
+}
+
+.table-striped a {
+    color: black;
+    text-decoration: none;
+}
+
+.table-striped a:hover {
+    text-decoration: underline;
+}
+
+#menuAdmin {
+    font-size: 18px;
+}
+
+.avisAValider {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#divParentAvis {
+    width: 50vw;
+}
+
+.table {
+    text-align: center!important;
+    vertical-align: middle;
+}
+
+.table img {
+    width: 8vw;
+}
+
+.imageHabitatDetail {
+    width: 23vw;
+    margin-right: 1vw;
+}
+
+.boldSpan {
+    font-weight: bold;
+}
+#divHabitatDetail {
+    margin-top: 2vw;
+    text-align: center;
+}
+#divHabitatDetail img {
+    margin: 1vw;
+}
+
+#detailAnimal {
+    text-align: center;
+}
+
+#filtres {
+    display: flex;
+    align-items: center;
+}
+
+#filtres input {
+    border: solid 1px rgb(206,212,218);
+    border-radius: 3px;
+    padding: .375rem .75rem;
+}
+
