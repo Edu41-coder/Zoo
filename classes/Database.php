@@ -20,7 +20,7 @@ if (!class_exists('Database')) {
         }
 
         // Méthode pour obtenir l'instance unique de la classe (singleton)
-        public static function getInstance($host = 'localhost', $db_name = 'zoo4', $username = 'pepe', $password = 'pepe') {
+        public static function getInstance($host = 'localhost', $db_name = 'zoo4', $username = 'root', $password = '') {
             if (self::$instance == null) {
                 self::$instance = new Database($host, $db_name, $username, $password);
             }
